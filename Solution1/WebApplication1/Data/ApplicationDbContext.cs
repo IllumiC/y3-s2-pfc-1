@@ -21,5 +21,9 @@ namespace WebApplication1.Data
         {
             optionsBuilder.UseLazyLoadingProxies();
         }
+
+        //Fix Autoincrement on Blog
+        //protected override void OnModelCreating(ModelBuilder modelBuilder) => modelBuilder.Entity<Blog>().Property(b => b.BlogId).UseIdentityAlwaysColumn();
     }
 }
+

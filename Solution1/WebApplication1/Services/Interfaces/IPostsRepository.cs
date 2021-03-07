@@ -6,7 +6,7 @@ using WebApplication1.Models.Domain;
 
 namespace WebApplication1.Services.Interfaces
 {
-    interface IPostsRepository
+    public interface IPostsRepository
     {
         void AddPost(Post b);
         Post GetPost(int id);

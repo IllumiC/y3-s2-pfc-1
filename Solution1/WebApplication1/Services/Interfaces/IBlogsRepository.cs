@@ -6,7 +6,7 @@ using WebApplication1.Models.Domain;
 
 namespace WebApplication1.Services.Interfaces
 {
-    interface IBlogsRepository
+    public interface IBlogsRepository
     {
         void AddBlog(Blog b);
         Blog GetBlog(int id);
