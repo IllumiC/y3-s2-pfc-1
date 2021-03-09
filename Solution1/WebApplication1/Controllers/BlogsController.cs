@@ -58,7 +58,6 @@ namespace WebApplication1.Controllers
                 _blogsRepo.AddBlog(b);
             }
 
-
             return RedirectToAction("Index");
         }
     }
